@@ -8,5 +8,13 @@ namespace Test
 {
     class Class3
     {
+        private int name;
+
+        public int Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+
     }
 }
