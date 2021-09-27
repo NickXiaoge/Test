@@ -16,5 +16,13 @@ namespace Test
             set { name = value; }
         }
 
+        private int grade;
+
+        public  int Grade
+        {
+            get { return grade; }
+            set { grade = value; }
+        }
+
     }
 }
